@@ -29,8 +29,8 @@ jobs:
           node-version: '18'
       
       - name: Install npm dependencies and build frontend
-        run: 
-          npm intall
+        run: |
+          npm install
           npm run build
 
       - name: Check if composer.json exists
